@@ -5,10 +5,13 @@ Repository for Research Project in NN.
 # Learning Through Invariants
 ## Understanding Deep Convolutional Neural Networks
 
-The Structure I want to follow is the following
+The Structure I want to follow is:
+
 ###The Mathematical Model
+
 Scattering Convolution Transorm as mathematical model to interpret CNN
 Papers:
+
 - [Mallat: Understanding Deep Convolutional Networks](https://arxiv.org/pdf/1601.04920v1.pdf) ironically not much understandable
 - [Bruna, Szlam and LeCun: Learning Stable Group Invariant Representations
 with Convolutional Networks](https://arxiv.org/pdf/1301.3537v1.pdf) - shorter, easier
