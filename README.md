@@ -8,8 +8,6 @@ Repository for Research Project in NN.
  <img src="https://raw.githubusercontent.com/giulioisac/DNN-Study/master/ScatteringTransform.png" >
 </div>
 
-![alt text](https://raw.githubusercontent.com/giulioisac/DNN-Study/ScatteringTransform.png)
-
 ### The Mathematical Model
 
 Scattering Convolution Transorm as mathematical model to interpret CNN
@@ -30,5 +28,6 @@ The mathematical model with  NO LEARNING is the scattering transform:
 
 What I did so far:
 - By taking insides from [here](https://07306847857070430948.googlegroups.com/attach/19204cc059e291/gabor_vs_scattering_fortexture_classif.html?part=0.1&view=1&vt=ANaJVrGrgRkwAqsNBqU4f7GRBwVrRCpnTDm__VktUJEF5o_1NaHtr5yUxGBB9M6UVrIav8m5MKMW-e7rUzb02aDy7kaBQKJ0Ev-Dfl_PlBUy8bndD1wbI9k) I tried to build the Scattering transform, the code can be seen in the [notebook](ScatteringTransformMNIST.ipynb). It is not working well at all. Some implementations can be found [here](https://github.com/edouardoyallon/pyscatwave) or [here](https://github.com/joanbruna/scattorch), but I am not really able to decode what is going on in there. 
-- build a CNN by taking insides from the [tutorial of Tensorflow](https://www.tensorflow.org/get_started/mnist/pros): the notebook can be found [here](DNN-MNIST.ipynb)
+- build a CNN by taking insides from the [tutorial of Tensorflow](https://www.tensorflow.org/get_started/mnist/pros): the notebook can be found [here](DNN-MNIST.ipynb). My first layer filters do not really look like wavelets, however [these ones](https://www.cs.nyu.edu/%7Efergus/papers/zeilerECCV2014.pdf) do, I might choose a better dataset?
+
 
