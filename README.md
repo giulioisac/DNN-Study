@@ -4,6 +4,10 @@ Repository for Research Project in NN.
 ### Giulio Isacchini
 # Learning Through Invariants
 ## Understanding Deep Convolutional Neural Networks
+<div align="center">
+ <img src="https://raw.githubusercontent.com/giulioisac/DNN-Study/master/ScatteringTransform.png" >
+</div>
+
 ![alt text](https://raw.githubusercontent.com/giulioisac/DNN-Study/ScatteringTransform.png)
 
 ### The Mathematical Model
